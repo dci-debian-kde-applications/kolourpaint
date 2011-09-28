@@ -1,0 +1,26 @@
+Source: kolourpaint
+Section: kde
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Harald Sitter <apachelogger@ubuntu.com>
+Build-Depends: kde-sc-dev-latest (>= 4:4.7.1),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.6), libqimageblitz-dev
+Standards-Version: 3.9.2
+Homepage: http://www.kde.org/
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kolourpaint
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kolourpaint
+
+Package: kolourpaint4
+Section: graphics
+Architecture: any
+Replaces: kolourpaint
+Breaks: kolourpaint
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: simple image editor and drawing application
+ KolourPaint is a simple drawing and image editing application for KDE.
+ It aims to be easy to use, providing a level of functionality targeted towards
+ the average user. It is ideal for common tasks such as drawing simple graphics
+ and touching-up photos.
+ .
+ This package is part of the KDE graphics module.
