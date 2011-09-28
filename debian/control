@@ -2,7 +2,7 @@ Source: kolourpaint
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Eshat Cakar <info@eshat>
+Uploaders: Eshat Cakar <info@eshat.de>
 Build-Depends: kde-sc-dev-latest (>= 4:4.7.1),
  	       kdelibs5-dev (>= 4:4.7), 
 	       pkg-kde-tools,
