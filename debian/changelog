@@ -6,6 +6,7 @@ kolourpaint (4:4.8.4-0r0) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
   * Bump kdelibs5-dev build dependency to 4:4.8.
   * Add watch file.
+  * Bump Standards-Version to 3.9.3, no further changes.
 
  -- Eshat Cakar <info@eshat.de>  Sun, 17 Jun 2012 00:49:32 +0200
 
