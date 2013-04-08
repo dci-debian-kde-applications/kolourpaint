@@ -1,8 +1,10 @@
-kolourpaint (4:4.10.0-0r1) UNRELEASED; urgency=low
+kolourpaint (4:4.10.2-1) UNRELEASED; urgency=low
 
   * New upstream release. 
+  * Bump kde-sc-dev-latest to latest build dependency 4:4.10.2
+  * Bump kdelibs5-dev build dependency to 4:4.10
 
- -- Diane Trout <diane@ghic.org>  Sat, 23 Feb 2013 10:48:29 -0800
+ -- Diane Trout <diane@ghic.org>  Sun, 07 Apr 2013 23:08:53 -0700
 
 kolourpaint (4:4.8.4-1) unstable; urgency=low
 
