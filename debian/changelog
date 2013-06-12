@@ -6,6 +6,7 @@ kolourpaint (4:4.10.4-1) UNRELEASED; urgency=low
   * Add the pkg-config build dependency.
 
   [ Maximiliano Curia ]
+  * Bump debhelper build-dep and compat to 9.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 12 Jun 2013 13:53:18 +0200
 
