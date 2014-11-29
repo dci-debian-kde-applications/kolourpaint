@@ -1,10 +1,11 @@
-kolourpaint (4:14.11.95-0ubuntu1) UNRELEASED; urgency=medium
+kolourpaint (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
 
   * Initial release for KDE applications 14.12 series 
    - Change maintainer to Debian/Kubuntu
    - Fix Watch file applications locations 
    - Fix VCS for new kde-applications location
   * Debian merge, no remaining changes. 
+  * New upstream release candidate. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Sat, 29 Nov 2014 10:56:18 +0000
 
