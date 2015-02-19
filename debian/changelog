@@ -7,26 +7,20 @@ kolourpaint (4:14.12.2-1~) UNRELEASED; urgency=medium
 kolourpaint (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Remove unstable from watch file, uscan fails with 
+  * Remove unstable from watch file, uscan fails with
     remote site does not even have current version
+  * Remove kdelibs5-dev depend version as there was not a new release.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 09:40:31 -0800
 
-kolourpaint (4:14.12.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  * New upstream release
-  * Remove kdelibs5-dev depend version as there was not a new release.
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 12 Dec 2014 10:25:20 -0800
-
 kolourpaint (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
-  * Initial release for KDE applications 14.12 series 
+  * Initial release for KDE applications 14.12 series
    - Change maintainer to Debian/Kubuntu
-   - Fix Watch file applications locations 
+   - Fix Watch file applications locations
    - Fix VCS for new kde-applications location
-  * Debian merge, no remaining changes. 
-  * New upstream release candidate. 
+  * Debian merge, no remaining changes.
+  * New upstream release candidate.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Sat, 29 Nov 2014 10:56:18 +0000
 
@@ -154,7 +148,7 @@ kolourpaint (4:4.10.4-1) experimental; urgency=low
 kolourpaint (4:4.10.2-1) experimental; urgency=low
 
   [ Diane Trout ]
-  * New upstream release. 
+  * New upstream release.
   * Bump kde-sc-dev-latest to latest build dependency 4:4.10.2
   * Bump kdelibs5-dev build dependency to 4:4.10
 
@@ -324,7 +318,7 @@ kolourpaint (4:4.10.3-0ubuntu1) saucy; urgency=low
 kolourpaint (4:4.10.2-1) experimental; urgency=low
 
   [ Diane Trout ]
-  * New upstream release. 
+  * New upstream release.
   * Bump kde-sc-dev-latest to latest build dependency 4:4.10.2
   * Bump kdelibs5-dev build dependency to 4:4.10
 
@@ -342,7 +336,7 @@ kolourpaint (4:4.10.2-0ubuntu1) raring; urgency=low
 kolourpaint (4:4.10.1-0ubuntu1) raring-proposed; urgency=low
 
   * New upstream bugfix release
-  * Fix copyright syntax 
+  * Fix copyright syntax
 
  -- Philip Muškovac <yofel@kubuntu.org>  Tue, 05 Mar 2013 16:34:46 +0000
 
@@ -441,7 +435,7 @@ kolourpaint (4:4.8.2-0ubuntu1) precise; urgency=low
 
 kolourpaint (4:4.8.1-0ubuntu1) precise; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 04 Mar 2012 20:37:36 +0100
 
@@ -519,7 +513,7 @@ kolourpaint (4:4.7.1-0ubuntu1) oneiric; urgency=low
 
 kolourpaint (4:4.7.0-0ubuntu1) oneiric; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Mon, 25 Jul 2011 00:06:31 +0200
 
@@ -534,4 +528,3 @@ kolourpaint (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
   * Remove shlib symlink libkolourpaint_lgpl.so.
 
  -- Harald Sitter <apachelogger@ubuntu.com>  Sun, 10 Jul 2011 12:20:39 +0200
-
