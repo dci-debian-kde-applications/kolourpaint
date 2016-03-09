@@ -1,9 +1,9 @@
-kolourpaint (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
+kolourpaint (4:15.12.1-1ubuntu1) xenial; urgency=medium
 
   * New upstream release
   * Merged with Debian 
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 06 Feb 2016 17:47:42 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 10:56:38 +0100
 
 kolourpaint (4:15.12.1-1) experimental; urgency=medium
 
