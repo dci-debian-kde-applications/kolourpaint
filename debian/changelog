@@ -1,3 +1,11 @@
+kolourpaint (4:15.12.3-1~1.gbpe00c02) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @e00c02d10f6d7448571d0fc062fbf578e02a99af **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:58:47 +0200
+
 kolourpaint (4:15.12.1-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
