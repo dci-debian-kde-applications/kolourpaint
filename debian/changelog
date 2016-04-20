@@ -1,10 +1,11 @@
-kolourpaint (4:15.12.3-1~1.gbpe00c02) UNRELEASED; urgency=medium
+kolourpaint (4:16.04.0-1~1.gbpa4e0eb) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @e00c02d10f6d7448571d0fc062fbf578e02a99af **
+  ** SNAPSHOT build @a4e0ebbada30e64b5c657437f4b6b1d549dac879 **
 
   * Bump Standards-Version to 3.9.8
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:58:47 +0200
+ -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 00:55:15 +0200
 
 kolourpaint (4:15.12.1-1) experimental; urgency=medium
 
