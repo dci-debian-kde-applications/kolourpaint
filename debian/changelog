@@ -1,17 +1,14 @@
-kolourpaint (4:16.04.0-1~1.gbpa4e0eb) UNRELEASED; urgency=medium
+kolourpaint (4:16.04.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @a4e0ebbada30e64b5c657437f4b6b1d549dac879 **
-
+  [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
-  * UNRELEASED
 
- -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 00:55:15 +0200
-
-kolourpaint (4:15.12.2-1~) UNRELEASED; urgency=medium
-
+  [ Maximiliano Curia ]
   * New upstream release (15.12.2).
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 10:11:47 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 20:27:15 +0200
 
 kolourpaint (4:15.12.1-1) experimental; urgency=medium
 
