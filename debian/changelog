@@ -1,3 +1,11 @@
+kolourpaint (4:16.08.0-1~1.gbp52d470) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @52d470cc752fbbc56b78354ccca951ea59ba9ac4 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 00:55:14 +0200
+
 kolourpaint (4:16.04.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
