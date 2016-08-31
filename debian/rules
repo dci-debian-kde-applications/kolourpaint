@@ -5,4 +5,4 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 override_dh_install:
 	$(overridden_command)
 	# remove shlib symlink as this isn't a dev package
-	rm debian/kolourpaint4/usr/lib/libkolourpaint_lgpl.so
+	rm debian/kolourpaint4/usr/lib/*/libkolourpaint_lgpl.so
