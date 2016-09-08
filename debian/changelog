@@ -1,11 +1,12 @@
-kolourpaint (4:16.08.0-1~2.gbp354901) UNRELEASED; urgency=medium
+kolourpaint (4:16.08.1-1~1.gbpb285cf) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @354901c046077b4fc658a0f5743cef1ff62da5ad **
+  ** SNAPSHOT build @b285cf31a5d1fe9bce7b8a295e32d02638bb9167 **
 
   * Update build-deps and deps with the info from cmake
   * UNRELEASED
+  * UNRELEASED
 
- -- Automatic packaging <jenkins@gnuservers.com.ar>  Wed, 31 Aug 2016 09:50:09 +0200
+ -- Automatic packaging <jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 00:55:42 +0200
 
 kolourpaint (4:16.04.0-1) unstable; urgency=medium
 
