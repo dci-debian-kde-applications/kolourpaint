@@ -1,8 +1,31 @@
-kolourpaint (4:16.04.1-0neon) xenial; urgency=medium
+kolourpaint (4:16.08.3-1) unstable; urgency=medium
 
-  * New release
+  * New upstream release (16.08.3)
 
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:45:45 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 21:14:20 +0100
+
+kolourpaint (4:16.08.2-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * New upstream release (16.08.2)
+  * Drop kde4 build deps
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 18 Oct 2016 09:23:52 +0200
+
+kolourpaint (4:16.04.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+  [ Maximiliano Curia ]
+  * New upstream release (15.12.2).
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 20:27:15 +0200
 
 kolourpaint (4:15.12.1-1) experimental; urgency=medium
 
