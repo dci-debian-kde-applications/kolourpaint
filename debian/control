@@ -7,9 +7,10 @@ Uploaders: Eshat Cakar <info@eshat.de>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
+               extra-cmake-modules,
                extra-cmake-modules (>= 1.3.0~),
                libkf5kdelibs4support-dev,
-               libqimageblitz-dev,
+               libkf5sane-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.2.0~)
@@ -18,12 +19,12 @@ Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kolourpaint.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kolourpaint.git
 
-Package: kolourpaint4
+Package: kolourpaint
 Section: graphics
 Architecture: any
-Replaces: kolourpaint
-Breaks: kolourpaint
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kolourpaint4 (<< 4:17.04)
+Replaces: kolourpaint4 (<< 4:17.04)
 Description: simple image editor and drawing application
  KolourPaint is a simple drawing and image editing application for KDE.
  It aims to be easy to use, providing a level of functionality targeted towards
