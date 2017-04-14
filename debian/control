@@ -23,8 +23,8 @@ Package: kolourpaint
 Section: graphics
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kolourpaint4 (<< 4:17.04)
-Replaces: kolourpaint4 (<< 4:17.04)
+Breaks: kolourpaint4 (<< 4:17.04), ${kde-l10n:all}
+Replaces: kolourpaint4 (<< 4:17.04), ${kde-l10n:all}
 Description: simple image editor and drawing application
  KolourPaint is a simple drawing and image editing application for KDE.
  It aims to be easy to use, providing a level of functionality targeted towards
