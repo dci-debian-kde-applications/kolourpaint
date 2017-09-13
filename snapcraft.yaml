@@ -1,6 +1,6 @@
 ---
 name: kolourpaint
-version: 17.04.3
+version: 17.08.1
 summary: An easy-to-use paint program
 description: |-
     KolourPaint is a simple painting program to quickly create raster images. It is useful as a touch-up tool and simple image editing tasks.
@@ -14,7 +14,6 @@ description: |-
     - Rotation, monochrome and other advanced effects
 confinement: strict
 grade: stable
-
 apps:
     kolourpaint:
         command: kf5-launch kolourpaint
@@ -27,23 +26,24 @@ apps:
         - network-bind
         - unity7
         - pulseaudio
-
 plugs:
     kde-frameworks-5-plug:
         content: kde-frameworks-5-all
         interface: content
         default-provider: kde-frameworks-5
         target: kf5
-
 parts:
     kolourpaint:
-        after: [kde-frameworks-5-dev, kde-frameworks-5-env]
-        source: https://download.kde.org/stable/applications/17.04.3/src/kolourpaint-17.04.3.tar.xz
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
         plugin: cmake
         build-packages:
         - libkf5kdelibs4support-dev
         - libkf5sane-dev
+        - pkg-config
         - libpulse0
+        source: https://download.kde.org/stable/applications/17.08.1/src/kolourpaint-17.08.1.tar.xz
         configflags:
         - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
         - "-DCMAKE_INSTALL_PREFIX=/usr"
