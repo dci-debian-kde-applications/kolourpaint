@@ -31,3 +31,13 @@ Description: simple image editor and drawing application
  and touching-up photos.
  .
  This package is part of the KDE graphics module.
+
+Package: kolourpaint4
+Section: oldlibs
+Architecture: all
+Depends: kolourpaint (>= ${source:Version}), ${misc:Depends}
+Description: transitional package for kolourpaint
+ This is a transitional package to migrate to kolourpaint.  It can be safely
+ removed after the upgrade.
+ .
+ This package is part of the KDE graphics module.
